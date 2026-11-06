@@ -1,16 +1,20 @@
 # Quão comum é o seu aniversário no Brasil?
 
-Um calendário interativo com as **366 datas** ordenadas pela frequência entre **76.691.580 nascimentos com data válida** registrados no SINASC entre **1997 e 2022**.
+Ranking das **366 datas** com base em **76.691.580 nascimentos com data válida** registrados no SINASC, no Brasil, de **1997 a 2022**.
 
-## Como abrir
+## Calendário de aniversários
 
-Abra [`index.html`](index.html) no GitHub, clique no botão de download e abra o arquivo baixado no navegador. O calendário funciona offline. Clique em uma data para ver a contagem e alterne entre o total acumulado e a média por ocorrência da data.
+Encontre o **dia na linha** e o **mês na coluna**. O número na célula é a posição pelo total de nascimentos no período: **1º = mais comum; 366º = mais raro**. Verde indica posições mais frequentes, roxo escuro as mais raras e laranja destaca **29/2**. As cores mostram a ordem do ranking. O sinal `=` indica empate; células vazias são datas que não existem.
+
+![Calendário dos nascimentos no Brasil, de 1997 a 2022. As linhas vão do dia 1 ao 31 e as colunas de janeiro a dezembro. Cada célula mostra a posição daquela data no ranking por total de nascimentos.](calendario-aniversarios.png)
+
+Se quiser explorar as contagens de cada dia ou alternar para o ranking pela média, baixe o [`index.html`](index.html) e abra no navegador.
 
 ## O que os dados mostram
 
 - **10 de março** foi a data mais frequente, com **234.249 nascimentos**.
-- **29 de fevereiro** ficou em 366º lugar pelo total acumulado. Dividindo os nascimentos dessa data pelas seis vezes em que ela ocorreu no período, fica em **310º**.
-- **25 de dezembro** teve a menor média por ocorrência: cerca de **5.591 nascimentos**.
+- **29 de fevereiro** ficou em **366º**, com **45.610 nascimentos**. Como a data apareceu só seis vezes no período, ela sobe para **310º** quando se compara a média por ocorrência.
+- **25 de dezembro** foi a data menos frequente entre as que existem todos os anos: **145.367 nascimentos**, ou cerca de **5.591 por ocorrência**, a menor média do ranking.
 
 ## Dados e metodologia
 
